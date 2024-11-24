@@ -73,7 +73,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200
   },
   "right": {
     "id": "40e89456e8b0f98c",
@@ -142,7 +142,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -152,10 +153,11 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "github-sync:Sync with Remote": false,
-      "obsidian-git:Open Git source control": false
+      "github-sync:Sync with Remote": false
     }
   },
-  "active": "232f91581f98a904",
-  "lastOpenFiles": []
+  "active": "faeacfa876ded0c8",
+  "lastOpenFiles": [
+    "002_Bigdata"
+  ]
 }
