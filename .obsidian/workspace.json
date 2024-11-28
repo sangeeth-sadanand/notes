@@ -4,17 +4,34 @@
     "type": "split",
     "children": [
       {
-        "id": "f0c1c45194e69981",
+        "id": "48f2bb4134e804bc",
         "type": "tabs",
         "children": [
           {
-            "id": "fbe28de5b2f20583",
+            "id": "da70b5c99d481be0",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "BigData/Linux commands.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Linux commands"
+            }
+          },
+          {
+            "id": "6eae4a2bcc1df6bf",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "BigData/media/linux_file_permission.svg"
+              },
+              "icon": "lucide-image",
+              "title": "linux_file_permission"
             }
           }
         ]
@@ -89,6 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "BigData/Introduction.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -98,7 +116,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks"
+              "title": "Backlinks for Introduction"
             }
           },
           {
@@ -107,11 +125,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "BigData/Introduction.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links"
+              "title": "Outgoing links from Introduction"
             }
           },
           {
@@ -132,9 +151,11 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {},
+              "state": {
+                "file": "BigData/Linux commands.md"
+              },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of Linux commands"
             }
           },
           {
@@ -165,10 +186,35 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "3d4ada7636526f53",
+  "active": "da70b5c99d481be0",
   "lastOpenFiles": [
-    "Untitled.md",
-    "New Text Document.txt",
+    "BigData/HDFS.md",
+    "BigData/Big Data.md",
+    "BigData/media/linux_file_permission.svg",
+    "BigData/Linux commands.md",
+    "BigData/media/linux_file_permission.svg.xml",
+    "BigData/media/hadoop_read_cycle.svg",
+    "BigData/media/hadoop_read_cycle.svg.xml",
+    "BigData/Introduction.md",
+    "BigData/media/HDFS_internals.svg",
+    "BigData/media/HDFS_internals.svg.xml",
+    "BigData/media/data_engineering_flow_aws.svg",
+    "BigData/media/data_engineering_flow_aws.svg.xml",
+    "BigData/media/data_engineering_flow_azure.svg",
+    "BigData/media/data_engineering_flow_azure.svg.xml",
+    "BigData/media/data_engineering_flow_on_premises.svg",
+    "BigData/media/data_engineering_flow_on_premises.svg.xml",
+    "data_engineering_flow_on_premises.svg.md",
+    "BigData/media/data_engineering_flow.svg",
+    "BigData/media/hadoop_eco_system.svg",
+    "BigData/media/data_engineering_flow.svg.xml",
+    "BigData/media",
+    "BigData/media/hadoop_eco_system.svg.xml",
+    "BigData/Untitled Diagram.svg.md",
+    "BigData/Untitled Diagram.svg",
+    "My Notes.md",
+    "Untitled 1.md",
+    "BigData",
     "Untitled.canvas",
     "2024-11-28.md"
   ]
