@@ -1,14 +1,14 @@
 {
   "main": {
-    "id": "b7a5a56221d1876a",
+    "id": "943ba14096030007",
     "type": "split",
     "children": [
       {
-        "id": "dde41454fb47ffa0",
+        "id": "f0c1c45194e69981",
         "type": "tabs",
         "children": [
           {
-            "id": "faeacfa876ded0c8",
+            "id": "fbe28de5b2f20583",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -23,15 +23,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "6343b9190b941dbd",
+    "id": "8c82db50832edd2c",
     "type": "split",
     "children": [
       {
-        "id": "b619195376f4d1fb",
+        "id": "746e84c6e2a2935c",
         "type": "tabs",
         "children": [
           {
-            "id": "243f8e1c63b22c65",
+            "id": "9044a49698797c99",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -43,7 +43,7 @@
             }
           },
           {
-            "id": "0fe70c9a39cc5b6b",
+            "id": "fcd33280d582bf6d",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -60,7 +60,7 @@
             }
           },
           {
-            "id": "e2f672b3f0da6b6b",
+            "id": "e4188b8dadca4aff",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -73,18 +73,18 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 300
   },
   "right": {
-    "id": "40e89456e8b0f98c",
+    "id": "0db61613fd2304c7",
     "type": "split",
     "children": [
       {
-        "id": "192654ed164c8d34",
+        "id": "13729c334ada4b8a",
         "type": "tabs",
         "children": [
           {
-            "id": "4d2c3db7d69e4964",
+            "id": "bdea2872ee7b4bd8",
             "type": "leaf",
             "state": {
               "type": "backlink",
@@ -102,7 +102,7 @@
             }
           },
           {
-            "id": "60dbcc66e97602f3",
+            "id": "5234ae1898fd03e0",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
@@ -115,7 +115,7 @@
             }
           },
           {
-            "id": "0d3ad9965d0d3040",
+            "id": "4a1ac85f90eb17f7",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -128,7 +128,7 @@
             }
           },
           {
-            "id": "232f91581f98a904",
+            "id": "2aca22caf40c305a",
             "type": "leaf",
             "state": {
               "type": "outline",
@@ -136,14 +136,23 @@
               "icon": "lucide-list",
               "title": "Outline"
             }
+          },
+          {
+            "id": "3d4ada7636526f53",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -153,11 +162,14 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "github-sync:Sync with Remote": false
+      "obsidian-git:Open Git source control": false
     }
   },
-  "active": "faeacfa876ded0c8",
+  "active": "3d4ada7636526f53",
   "lastOpenFiles": [
-    "002_Bigdata"
+    "Untitled.md",
+    "New Text Document.txt",
+    "Untitled.canvas",
+    "2024-11-28.md"
   ]
 }
