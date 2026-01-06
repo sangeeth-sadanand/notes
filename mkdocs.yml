@@ -1,3 +1,71 @@
 site_name: My personal Notes
+site_description: Sangeeth's Notes
+site_author: Sangeeth Sadanand
+
+repo_name: sangeeth-sadanand/notes
+repo_url: https://github.com/sangeeth-sadanand/notes
+
+
+nav:
+  - Home: index.md
+  - Python: python/index.md
+  - Machine learning and AI: ML_AI/index.md
+
+
 theme:
   name: material
+  language: en
+  features:
+    - navigation.instant
+    - navigation.instant.progress
+    # - navigation.tabs
+    # - navigation.tabs.sticky
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - toc.follow
+    - search.highlight
+    - search.share
+    - search.suggest
+    - content.code.copy
+
+  palette:
+    # Light mode
+    - scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+
+    # Dark mode
+    - scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+
+  font:
+    text: Roboto
+    code: Roboto Mono
+
+  icon:
+    repo: fontawesome/brands/github
+
+markdown_extensions:
+  - admonition
+  - footnotes
+  - meta
+  - toc:
+      permalink: true
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - pymdownx.details
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
