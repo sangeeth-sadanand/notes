@@ -1,0 +1,1933 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Sangeeth's Notes">
+      
+      
+        <meta name="author" content="Sangeeth Sadanand">
+      
+      
+      
+      
+      
+        
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.1">
+    
+    
+      
+        <title>Statistics - My personal Notes</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.484c7ddc.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#statistics" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="My personal Notes" class="md-header__button md-logo" aria-label="My personal Notes" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            My personal Notes
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Statistics
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m17.75 4.09-2.53 1.94.91 3.06-2.63-1.81-2.63 1.81.91-3.06-2.53-1.94L12.44 4l1.06-3 1.06 3zm3.5 6.91-1.64 1.25.59 1.98-1.7-1.17-1.7 1.17.59-1.98L15.75 11l2.06-.05L18.5 9l.69 1.95zm-2.28 4.95c.83-.08 1.72 1.1 1.19 1.85-.32.45-.66.87-1.08 1.27C15.17 23 8.84 23 4.94 19.07c-3.91-3.9-3.91-10.24 0-14.14.4-.4.82-.76 1.27-1.08.75-.53 1.93.36 1.85 1.19-.27 2.86.69 5.83 2.89 8.02a9.96 9.96 0 0 0 8.02 2.89m-1.64 2.02a12.08 12.08 0 0 1-7.8-3.47c-2.17-2.19-3.33-5-3.49-7.82-2.81 3.14-2.7 7.96.31 10.98 3.02 3.01 7.84 3.12 10.98.31"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 7a5 5 0 0 1 5 5 5 5 0 0 1-5 5 5 5 0 0 1-5-5 5 5 0 0 1 5-5m0 2a3 3 0 0 0-3 3 3 3 0 0 0 3 3 3 3 0 0 0 3-3 3 3 0 0 0-3-3m0-7 2.39 3.42C13.65 5.15 12.84 5 12 5s-1.65.15-2.39.42zM3.34 7l4.16-.35A7.2 7.2 0 0 0 5.94 8.5c-.44.74-.69 1.5-.83 2.29zm.02 10 1.76-3.77a7.131 7.131 0 0 0 2.38 4.14zM20.65 7l-1.77 3.79a7.02 7.02 0 0 0-2.38-4.15zm-.01 10-4.14.36c.59-.51 1.12-1.14 1.54-1.86.42-.73.69-1.5.83-2.29zM12 22l-2.41-3.44c.74.27 1.55.44 2.41.44.82 0 1.63-.17 2.37-.44z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+          <a href="javascript:void(0)" class="md-search__icon md-icon" title="Share" aria-label="Share" data-clipboard data-clipboard-text="" data-md-component="search-share" tabindex="-1">
+            
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7c.05-.23.09-.46.09-.7s-.04-.47-.09-.7l7.05-4.11c.54.5 1.25.81 2.04.81a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3c0 .24.04.47.09.7L8.04 9.81C7.5 9.31 6.79 9 6 9a3 3 0 0 0-3 3 3 3 0 0 0 3 3c.79 0 1.5-.31 2.04-.81l7.12 4.15c-.05.21-.08.43-.08.66 0 1.61 1.31 2.91 2.92 2.91s2.92-1.3 2.92-2.91A2.92 2.92 0 0 0 18 16.08"/></svg>
+          </a>
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/sangeeth-sadanand/notes" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M173.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6m-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3m44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9M252.8 8C114.1 8 8 113.3 8 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C436.2 457.8 504 362.9 504 252 504 113.3 391.5 8 252.8 8M105.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1m-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7m32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1m-11.4-14.7c-1.6 1-1.6 3.6 0 5.9s4.3 3.3 5.6 2.3c1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2"/></svg>
+  </div>
+  <div class="md-source__repository">
+    sangeeth-sadanand/notes
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="My personal Notes" class="md-nav__button md-logo" aria-label="My personal Notes" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    My personal Notes
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/sangeeth-sadanand/notes" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M173.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6m-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3m44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9M252.8 8C114.1 8 8 113.3 8 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C436.2 457.8 504 362.9 504 252 504 113.3 391.5 8 252.8 8M105.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1m-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7m32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1m-11.4-14.7c-1.6 1-1.6 3.6 0 5.9s4.3 3.3 5.6 2.3c1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2"/></svg>
+  </div>
+  <div class="md-source__repository">
+    sangeeth-sadanand/notes
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Home
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../python/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Python
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Machine learning and AI
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#introduction" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Introduction
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Introduction">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#role-of-statistics-in-ml-and-data-science" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Role of Statistics in ML and Data Science
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#descriptive-vs-inferential-statistics" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Descriptive vs. Inferential Statistics
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Descriptive vs. Inferential Statistics">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#descriptive-statistics" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Descriptive Statistics
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#inferential-statistics" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Inferential Statistics
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#population-vs-sample" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Population vs. Sample
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#variables-and-types-of-variables" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Variables and Types of Variables
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Variables and Types of Variables">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#types-of-variables" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Types of Variables
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Types of Variables">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-quantitative-numerical-variables" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1. Quantitative (Numerical) Variables
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-qualitative-categorical-variables" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. Qualitative (Categorical) Variables
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-other-variable-types" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3. Other Variable Types
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#summary" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Summary
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#scale-of-measurement" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Scale of Measurement
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Scale of Measurement">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#types-of-scales" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Types of Scales
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sampling-techniques" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Sampling Techniques
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Sampling Techniques">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#probability-sampling" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Probability Sampling
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Probability Sampling">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#simple-random-sampling-srs" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Simple Random Sampling (SRS)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#systematic-sampling" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Systematic Sampling
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#stratified-sampling" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Stratified Sampling
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cluster-sampling" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Cluster Sampling
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#multistage-sampling" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Multistage Sampling
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#non-probability-sampling" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Non-Probability Sampling
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Non-Probability Sampling">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#convenience-sampling" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Convenience Sampling
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#judgmental-purposive-sampling" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Judgmental / Purposive Sampling
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#quota-sampling" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Quota Sampling
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#snowball-sampling" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Snowball Sampling
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#summary-table" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Summary Table
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#data-summarization-and-descriptive-statistics" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Data Summarization and Descriptive Statistics
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Data Summarization and Descriptive Statistics">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#measures-of-central-tendency" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Measures of Central Tendency
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Measures of Central Tendency">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#mean" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Mean
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#median" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Median
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#mode" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Mode
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#measures-of-dispersion" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Measures of Dispersion
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Measures of Dispersion">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#range" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Range
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#variance" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Variance
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#standard-deviation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Standard Deviation
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#interquartile-range-iqr" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Interquartile Range (IQR)
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#skewness-and-kurtosis" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Skewness and Kurtosis
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Skewness and Kurtosis">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#skewness" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Skewness
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#kurtosis" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Kurtosis
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#five-number-summary" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Five-Number Summary
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Five-Number Summary">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#components" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Components:
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-probability-fundamentals" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3. Probability Fundamentals
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#13-basic-probability-concepts" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        13. Basic Probability Concepts
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#14-sample-space-and-events" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        14. Sample Space and Events
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="14. Sample Space and Events">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#141-sample-space-s" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        14.1 Sample Space (S)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#142-events" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        14.2 Events
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#15-conditional-probability" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        15. Conditional Probability
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#16-bayes-theorem" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        16. Bayes’ Theorem
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="16. Bayes’ Theorem">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#formula" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Formula:
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#components_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Components:
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#importance-in-ml-data-science" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Importance in ML &amp; Data Science:
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#17-independence-and-mutual-exclusivity" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        17. Independence and Mutual Exclusivity
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="17. Independence and Mutual Exclusivity">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#171-independent-events" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        17.1 Independent Events
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#172-mutually-exclusive-events" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        17.2 Mutually Exclusive Events
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#173-key-difference" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        17.3 Key Difference
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4-random-variables-and-probability-distributions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4. Random Variables and Probability Distributions
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#5-normal-distribution-and-central-limit-theorem" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5. Normal Distribution and Central Limit Theorem
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#6-data-visualization-for-statistical-analysis" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6. Data Visualization for Statistical Analysis
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#7-correlation-and-covariance" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        7. Correlation and Covariance
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#8-statistical-inference" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        8. Statistical Inference
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#9-hypothesis-testing" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        9. Hypothesis Testing
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#10-statistical-assumptions-in-machine-learning" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        10. Statistical Assumptions in Machine Learning
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#11-outliers-and-data-quality" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        11. Outliers and Data Quality
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#12-basic-statistical-concepts-in-ml-algorithms" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        12. Basic Statistical Concepts in ML Algorithms
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#13-practical-statistics-with-python-optional" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        13. Practical Statistics with Python (Optional)
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+  
+  
+
+
+<h1 id="statistics">Statistics<a class="headerlink" href="#statistics" title="Permanent link">&para;</a></h1>
+<p><strong>Statistics</strong> is the branch of mathematics that deals with the <strong>collection, organization, analysis, interpretation, and presentation of data</strong>.  </p>
+<h2 id="introduction">Introduction<a class="headerlink" href="#introduction" title="Permanent link">&para;</a></h2>
+<h3 id="role-of-statistics-in-ml-and-data-science">Role of Statistics in ML and Data Science<a class="headerlink" href="#role-of-statistics-in-ml-and-data-science" title="Permanent link">&para;</a></h3>
+<p>Statistics plays a vital role in ML and Data Science by enabling:</p>
+<ul>
+<li><strong>Data Summarization</strong>: Condenses large datasets into interpretable summaries (mean, median, mode, variance, etc.).</li>
+<li><strong>Understanding Relationships</strong>: Identifies patterns and correlations between variables.</li>
+<li><strong>Probability Modeling</strong>: Helps model uncertainty and make predictions.</li>
+<li><strong>Hypothesis Testing</strong>: Assesses assumptions and validates models.</li>
+<li><strong>Feature Selection and Engineering</strong>: Guides which variables to include in models.</li>
+<li><strong>Model Evaluation</strong>: Statistical metrics (MSE, RMSE, R²) are used to evaluate predictive performance.</li>
+<li><strong>Decision Making</strong>: Facilitates informed decisions based on data-driven insights.</li>
+</ul>
+<h3 id="descriptive-vs-inferential-statistics">Descriptive vs. Inferential Statistics<a class="headerlink" href="#descriptive-vs-inferential-statistics" title="Permanent link">&para;</a></h3>
+<h4 id="descriptive-statistics"><strong>Descriptive Statistics</strong><a class="headerlink" href="#descriptive-statistics" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>Purpose</strong>: Summarizes and describes the main features of a dataset.</li>
+<li><strong>Techniques</strong>:<ul>
+<li><strong>Central Tendency</strong>: Mean, Median, Mode</li>
+<li><strong>Dispersion</strong>: Range, Variance, Standard Deviation, IQR</li>
+<li><strong>Visualization</strong>: Histograms, Boxplots, Bar Charts, Scatter Plots</li>
+</ul>
+</li>
+<li><strong>Use Case</strong>: Quick understanding of dataset characteristics.</li>
+</ul>
+<h4 id="inferential-statistics"><strong>Inferential Statistics</strong><a class="headerlink" href="#inferential-statistics" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>Purpose</strong>: Makes predictions or inferences about a <strong>population</strong> based on a <strong>sample</strong>.</li>
+<li><strong>Techniques</strong>:<ul>
+<li>Hypothesis Testing (t-test, chi-square test, ANOVA)</li>
+<li>Confidence Intervals</li>
+<li>Regression Analysis</li>
+<li>Correlation Analysis</li>
+</ul>
+</li>
+<li><strong>Use Case</strong>: Generalizing findings beyond the observed data.</li>
+</ul>
+<h3 id="population-vs-sample">Population vs. Sample<a class="headerlink" href="#population-vs-sample" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th>Term</th>
+<th>Definition</th>
+<th>Example</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Population</strong></td>
+<td>The entire set of items or observations of interest</td>
+<td>All users of a social media platform</td>
+</tr>
+<tr>
+<td><strong>Sample</strong></td>
+<td>A subset of the population used to estimate population properties</td>
+<td>1,000 users randomly selected for survey</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Key Points:</strong></p>
+<ul>
+<li>Samples are used because collecting data from the entire population is often impractical.</li>
+<li>Statistical inference allows conclusions about the population from the sample.</li>
+<li><strong>Bias</strong> must be minimized to ensure sample represents population accurately.</li>
+</ul>
+<h3 id="variables-and-types-of-variables">Variables and Types of Variables<a class="headerlink" href="#variables-and-types-of-variables" title="Permanent link">&para;</a></h3>
+<p>A <strong>variable</strong> is a <strong>characteristic, attribute, or property</strong> that can take on different values for different individuals or observations. Variables are fundamental because they represent the data we collect, analyze, and model.  </p>
+<h4 id="types-of-variables">Types of Variables<a class="headerlink" href="#types-of-variables" title="Permanent link">&para;</a></h4>
+<p>Variables are broadly classified into <strong>Quantitative (Numerical)</strong> and <strong>Qualitative (Categorical)</strong> variables.  </p>
+<h5 id="1-quantitative-numerical-variables">1. Quantitative (Numerical) Variables<a class="headerlink" href="#1-quantitative-numerical-variables" title="Permanent link">&para;</a></h5>
+<ul>
+<li>Represent measurable quantities.</li>
+<li>Can be <strong>counted or measured</strong>.</li>
+<li>Subtypes:<ol>
+<li><strong>Discrete Variables</strong>: Take <strong>countable</strong> values, usually integers.<ul>
+<li>Example: Number of students in a class, number of cars in a parking lot.</li>
+</ul>
+</li>
+<li><strong>Continuous Variables</strong>: Can take <strong>any value</strong> within a range.<ul>
+<li>Example: Height, Weight, Temperature, Age (measured precisely).</li>
+</ul>
+</li>
+</ol>
+</li>
+</ul>
+<h5 id="2-qualitative-categorical-variables">2. Qualitative (Categorical) Variables<a class="headerlink" href="#2-qualitative-categorical-variables" title="Permanent link">&para;</a></h5>
+<ul>
+<li>Represent <strong>categories or labels</strong> rather than numeric values.</li>
+<li>Subtypes:<ol>
+<li><strong>Nominal Variables</strong><ul>
+<li>Categories <strong>without order</strong>.</li>
+<li>Example: Gender, Blood Type, Color.</li>
+</ul>
+</li>
+<li><strong>Ordinal Variables</strong><ul>
+<li>Categories <strong>with a meaningful order</strong>, but intervals between categories are not uniform.</li>
+</ul>
+</li>
+<li>Example: Rating scales (Poor, Average, Good, Excellent), Education Level.</li>
+</ol>
+</li>
+</ul>
+<h5 id="3-other-variable-types">3. Other Variable Types<a class="headerlink" href="#3-other-variable-types" title="Permanent link">&para;</a></h5>
+<ul>
+<li><strong>Binary / Dichotomous Variables</strong><ul>
+<li>Only <strong>two categories</strong> (0 or 1, Yes or No).</li>
+<li>Example: Has disease (Yes/No), Pass/Fail.</li>
+</ul>
+</li>
+<li><strong>Interval Variables</strong><ul>
+<li>Numeric variables with <strong>equal intervals</strong> but <strong>no true zero</strong>.</li>
+<li>Example: Temperature in Celsius or Fahrenheit.</li>
+</ul>
+</li>
+<li><strong>Ratio Variables</strong><ul>
+<li>Numeric variables with <strong>equal intervals</strong> and a <strong>true zero</strong>.</li>
+<li>Example: Height, Weight, Age, Income.</li>
+</ul>
+</li>
+</ul>
+<hr />
+<h4 id="summary">Summary<a class="headerlink" href="#summary" title="Permanent link">&para;</a></h4>
+<table>
+<thead>
+<tr>
+<th>Variable Type</th>
+<th>Sub-type</th>
+<th>Definition</th>
+<th>Examples</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Quantitative / Numerical</strong></td>
+<td></td>
+<td>Measurable quantities</td>
+<td>Height, Weight, Age</td>
+</tr>
+<tr>
+<td></td>
+<td>Discrete</td>
+<td>Countable, finite</td>
+<td>Number of students, Cars</td>
+</tr>
+<tr>
+<td></td>
+<td>Continuous</td>
+<td>Any value in a range</td>
+<td>Temperature, Weight</td>
+</tr>
+<tr>
+<td><strong>Qualitative / Categorical</strong></td>
+<td></td>
+<td>Categories or labels</td>
+<td>Gender, Blood Type</td>
+</tr>
+<tr>
+<td></td>
+<td>Nominal</td>
+<td>No order</td>
+<td>Color, City, Marital Status</td>
+</tr>
+<tr>
+<td></td>
+<td>Ordinal</td>
+<td>Ordered categories</td>
+<td>Ratings, Education Level</td>
+</tr>
+<tr>
+<td><strong>Binary / Dichotomous</strong></td>
+<td></td>
+<td>Two categories only</td>
+<td>Yes/No, True/False</td>
+</tr>
+<tr>
+<td><strong>Interval</strong></td>
+<td></td>
+<td>Numeric, equal intervals, no true zero</td>
+<td>Temperature (°C, °F), IQ</td>
+</tr>
+<tr>
+<td><strong>Ratio</strong></td>
+<td></td>
+<td>Numeric, equal intervals, true zero</td>
+<td>Age, Salary, Weight</td>
+</tr>
+</tbody>
+</table>
+<h3 id="scale-of-measurement">Scale of Measurement<a class="headerlink" href="#scale-of-measurement" title="Permanent link">&para;</a></h3>
+<p>The <strong>scale of measurement</strong> defines how data values are <strong>quantified, categorized, and interpreted</strong>. It determines the types of statistical analyses that are appropriate for the data.</p>
+<h4 id="types-of-scales">Types of Scales<a class="headerlink" href="#types-of-scales" title="Permanent link">&para;</a></h4>
+<ol>
+<li>
+<p><strong>Nominal Scale</strong></p>
+<ul>
+<li><strong>Definition</strong>: Data are categorized into distinct groups with <strong>no natural order</strong>.</li>
+<li><strong>Operations</strong>: Counting, mode</li>
+<li><strong>Examples</strong>: Gender, Blood Type, Eye Color</li>
+</ul>
+</li>
+<li>
+<p><strong>Ordinal Scale</strong></p>
+<ul>
+<li><strong>Definition</strong>: Data are categorized with a <strong>meaningful order</strong>, but the intervals between categories are <strong>not necessarily equal</strong>.</li>
+<li><strong>Operations</strong>: Ranking, median, percentiles</li>
+<li><strong>Examples</strong>: Customer satisfaction (Poor, Fair, Good, Excellent), Education Level (High School, Bachelor’s, Master’s)</li>
+</ul>
+</li>
+<li>
+<p><strong>Interval Scale</strong></p>
+<ul>
+<li><strong>Definition</strong>: Numeric data with <strong>equal intervals</strong> between values, but <strong>no true zero point</strong>.</li>
+<li><strong>Operations</strong>: Addition, subtraction, mean, standard deviation</li>
+<li><strong>Examples</strong>: Temperature in Celsius/Fahrenheit, IQ scores</li>
+<li><strong>Note</strong>: Ratios are <strong>not meaningful</strong> (e.g., 20°C is not “twice as hot” as 10°C).</li>
+</ul>
+</li>
+<li>
+<p><strong>Ratio Scale</strong></p>
+<ul>
+<li><strong>Definition</strong>: Numeric data with <strong>equal intervals</strong> and a <strong>true zero point</strong>.</li>
+<li><strong>Operations</strong>: All arithmetic operations, including ratios</li>
+<li><strong>Examples</strong>: Height, Weight, Age, Income</li>
+<li><strong>Note</strong>: Zero means absence of the property, so statements like “twice as much” are meaningful.</li>
+</ul>
+</li>
+</ol>
+<h3 id="sampling-techniques">Sampling Techniques<a class="headerlink" href="#sampling-techniques" title="Permanent link">&para;</a></h3>
+<h4 id="probability-sampling">Probability Sampling<a class="headerlink" href="#probability-sampling" title="Permanent link">&para;</a></h4>
+<p>In probability sampling, <strong>each member of the population has a known, non-zero chance of being selected</strong>. This allows for <strong>statistical inference</strong>.</p>
+<h5 id="simple-random-sampling-srs"><strong>Simple Random Sampling (SRS)</strong><a class="headerlink" href="#simple-random-sampling-srs" title="Permanent link">&para;</a></h5>
+<ul>
+<li>Every individual has an <strong>equal chance</strong> of being selected.</li>
+<li>Methods: Random number generators, lottery method.</li>
+<li>Example: Selecting 100 students randomly from a university.</li>
+</ul>
+<h5 id="systematic-sampling"><strong>Systematic Sampling</strong><a class="headerlink" href="#systematic-sampling" title="Permanent link">&para;</a></h5>
+<ul>
+<li>Select every <strong>k-th member</strong> from a population list after a random start.</li>
+<li>Example: Choosing every 10th customer entering a store.</li>
+</ul>
+<h5 id="stratified-sampling"><strong>Stratified Sampling</strong><a class="headerlink" href="#stratified-sampling" title="Permanent link">&para;</a></h5>
+<ul>
+<li>Population divided into <strong>homogeneous subgroups (strata)</strong>, and a random sample is taken from each stratum.</li>
+<li>Ensures representation from all subgroups.</li>
+<li>Example: Sampling students by department to represent each department proportionally.</li>
+</ul>
+<h5 id="cluster-sampling"><strong>Cluster Sampling</strong><a class="headerlink" href="#cluster-sampling" title="Permanent link">&para;</a></h5>
+<ul>
+<li>Population divided into <strong>clusters</strong> (often naturally occurring groups), and entire clusters are randomly selected.</li>
+<li>More practical for large, spread-out populations.</li>
+<li>Example: Selecting certain schools from a city and surveying all students in those schools.</li>
+</ul>
+<h5 id="multistage-sampling"><strong>Multistage Sampling</strong><a class="headerlink" href="#multistage-sampling" title="Permanent link">&para;</a></h5>
+<ul>
+<li>Combines several sampling methods in stages.</li>
+<li>Example: Randomly selecting districts → then schools → then students within schools.</li>
+</ul>
+<h4 id="non-probability-sampling">Non-Probability Sampling<a class="headerlink" href="#non-probability-sampling" title="Permanent link">&para;</a></h4>
+<p>In non-probability sampling, <strong>not all members have a known or equal chance of being selected</strong>. Easier to implement but may introduce bias.</p>
+<h5 id="convenience-sampling"><strong>Convenience Sampling</strong><a class="headerlink" href="#convenience-sampling" title="Permanent link">&para;</a></h5>
+<ul>
+<li>Selects members <strong>easily accessible</strong>.</li>
+<li>Example: Surveying people passing by a mall.</li>
+<li>Limitation: May not be representative.</li>
+</ul>
+<h5 id="judgmental-purposive-sampling"><strong>Judgmental / Purposive Sampling</strong><a class="headerlink" href="#judgmental-purposive-sampling" title="Permanent link">&para;</a></h5>
+<ul>
+<li>Members are chosen based on <strong>expert judgment</strong>.</li>
+<li>Example: Selecting key industry experts for an interview.</li>
+</ul>
+<h5 id="quota-sampling"><strong>Quota Sampling</strong><a class="headerlink" href="#quota-sampling" title="Permanent link">&para;</a></h5>
+<ul>
+<li>Ensures certain <strong>characteristics are represented</strong>, but selection is non-random.</li>
+<li>Example: Ensuring 50% male and 50% female respondents in a survey.</li>
+</ul>
+<h5 id="snowball-sampling"><strong>Snowball Sampling</strong><a class="headerlink" href="#snowball-sampling" title="Permanent link">&para;</a></h5>
+<ul>
+<li>Existing participants recruit <strong>future participants</strong> from their acquaintances.</li>
+<li>Useful for <strong>hard-to-reach populations</strong>.</li>
+<li>Example: Studying a rare disease or underground community.</li>
+</ul>
+<h4 id="summary-table">Summary Table<a class="headerlink" href="#summary-table" title="Permanent link">&para;</a></h4>
+<table>
+<thead>
+<tr>
+<th>Sampling Type</th>
+<th>Method</th>
+<th>Key Feature</th>
+<th>Example</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Probability</strong></td>
+<td>Simple Random</td>
+<td>Equal chance</td>
+<td>Random students</td>
+</tr>
+<tr>
+<td></td>
+<td>Systematic</td>
+<td>Every k-th selected</td>
+<td>Every 10th customer</td>
+</tr>
+<tr>
+<td></td>
+<td>Stratified</td>
+<td>Proportional representation</td>
+<td>Students by department</td>
+</tr>
+<tr>
+<td></td>
+<td>Cluster</td>
+<td>Randomly selected clusters</td>
+<td>Schools in a city</td>
+</tr>
+<tr>
+<td></td>
+<td>Multistage</td>
+<td>Multiple stages</td>
+<td>District → School → Student</td>
+</tr>
+<tr>
+<td><strong>Non-Probability</strong></td>
+<td>Convenience</td>
+<td>Easily accessible</td>
+<td>Mall visitors</td>
+</tr>
+<tr>
+<td></td>
+<td>Judgmental / Purposive</td>
+<td>Expert-selected</td>
+<td>Industry experts</td>
+</tr>
+<tr>
+<td></td>
+<td>Quota</td>
+<td>Fixed quotas</td>
+<td>Gender-balanced survey</td>
+</tr>
+<tr>
+<td></td>
+<td>Snowball</td>
+<td>Participant referrals</td>
+<td>Rare disease study</td>
+</tr>
+</tbody>
+</table>
+<h2 id="data-summarization-and-descriptive-statistics">Data Summarization and Descriptive Statistics<a class="headerlink" href="#data-summarization-and-descriptive-statistics" title="Permanent link">&para;</a></h2>
+<h3 id="measures-of-central-tendency">Measures of Central Tendency<a class="headerlink" href="#measures-of-central-tendency" title="Permanent link">&para;</a></h3>
+<p>Measures of central tendency describe the <strong>central or typical value</strong> of a dataset.</p>
+<h4 id="mean">Mean<a class="headerlink" href="#mean" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>Definition</strong>: Arithmetic average of all observations.</li>
+<li><strong>Formula</strong>:  </li>
+</ul>
+<div class="arithmatex">\[
+\text{Mean} = \frac{\sum x_i}{n}
+\]</div>
+<ul>
+<li><strong>Advantages</strong>: Uses all data points; mathematically convenient.</li>
+<li><strong>Limitations</strong>: Highly sensitive to outliers.</li>
+<li><strong>Use Case</strong>: Normally distributed numerical data.</li>
+</ul>
+<h4 id="median">Median<a class="headerlink" href="#median" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>Definition</strong>: Middle value when data is ordered.</li>
+<li><strong>Key Feature</strong>: Robust to outliers.</li>
+<li><strong>Use Case</strong>: Skewed distributions (e.g., income, house prices).</li>
+</ul>
+<h4 id="mode">Mode<a class="headerlink" href="#mode" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>Definition</strong>: Most frequently occurring value.</li>
+<li><strong>Key Feature</strong>: Can be used for <strong>categorical data</strong>.</li>
+<li><strong>Use Case</strong>: Identifying common categories or values.</li>
+</ul>
+<h3 id="measures-of-dispersion">Measures of Dispersion<a class="headerlink" href="#measures-of-dispersion" title="Permanent link">&para;</a></h3>
+<p>Measures of dispersion describe the <strong>spread or variability</strong> of data.</p>
+<h4 id="range">Range<a class="headerlink" href="#range" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>Definition</strong>: Difference between maximum and minimum values.</li>
+<li><strong>Formula</strong>: </li>
+</ul>
+<div class="arithmatex">\[
+\text{Range} = \text{Max} - \text{Min}
+\]</div>
+<ul>
+<li><strong>Limitation</strong>: Highly sensitive to extreme values.</li>
+</ul>
+<h4 id="variance">Variance<a class="headerlink" href="#variance" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>Definition</strong>: Average of squared deviations from the mean.</li>
+<li><strong>Formula</strong>:  </li>
+</ul>
+<div class="arithmatex">\[
+\sigma^2 = \frac{\sum (x_i - \mu)^2}{n}
+\]</div>
+<ul>
+<li><strong>Interpretation</strong>: Measures overall variability.</li>
+</ul>
+<h4 id="standard-deviation">Standard Deviation<a class="headerlink" href="#standard-deviation" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>Definition</strong>: Square root of variance.</li>
+<li><strong>Advantage</strong>: Expressed in the same units as data.</li>
+<li><strong>Interpretation</strong>: Typical distance of data points from the mean.</li>
+</ul>
+<h4 id="interquartile-range-iqr">Interquartile Range (IQR)<a class="headerlink" href="#interquartile-range-iqr" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>Definition</strong>: Spread of the middle 50% of data.</li>
+<li><strong>Formula</strong>:  </li>
+</ul>
+<div class="arithmatex">\[
+\text{IQR} = Q_3 - Q_1
+\]</div>
+<ul>
+<li><strong>Advantage</strong>: Resistant to outliers.</li>
+<li><strong>Use Case</strong>: Boxplots and skewed data analysis.</li>
+</ul>
+<h3 id="skewness-and-kurtosis">Skewness and Kurtosis<a class="headerlink" href="#skewness-and-kurtosis" title="Permanent link">&para;</a></h3>
+<h4 id="skewness">Skewness<a class="headerlink" href="#skewness" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>Definition</strong>: Measures the <strong>asymmetry</strong> of a distribution.</li>
+<li><strong>Types</strong>:<ul>
+<li><strong>Positive Skew (Right-skewed)</strong>: Long right tail, Mean &gt; Median.</li>
+<li><strong>Negative Skew (Left-skewed)</strong>: Long left tail, Mean &lt; Median.</li>
+<li><strong>Zero Skew</strong>: Symmetrical distribution.</li>
+</ul>
+</li>
+</ul>
+<h4 id="kurtosis">Kurtosis<a class="headerlink" href="#kurtosis" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>Definition</strong>: Measures the <strong>tailedness or peakedness</strong> of a distribution.</li>
+<li><strong>Types</strong>:<ul>
+<li><strong>Leptokurtic</strong>: Heavy tails, sharp peak.</li>
+<li><strong>Mesokurtic</strong>: Normal distribution.</li>
+<li><strong>Platykurtic</strong>: Light tails, flat peak.</li>
+</ul>
+</li>
+</ul>
+<h3 id="five-number-summary">Five-Number Summary<a class="headerlink" href="#five-number-summary" title="Permanent link">&para;</a></h3>
+<p>The <strong>five-number summary</strong> provides a concise description of a dataset.</p>
+<h4 id="components">Components:<a class="headerlink" href="#components" title="Permanent link">&para;</a></h4>
+<ol>
+<li><strong>Minimum</strong></li>
+<li><strong>First Quartile (Q1)</strong> – 25th percentile</li>
+<li><strong>Median (Q2)</strong> – 50th percentile</li>
+<li><strong>Third Quartile (Q3)</strong> – 75th percentile</li>
+<li><strong>Maximum</strong></li>
+</ol>
+<p>Commonly visualized using a <strong>boxplot</strong>.</p>
+<h3 id="3-probability-fundamentals">3. Probability Fundamentals<a class="headerlink" href="#3-probability-fundamentals" title="Permanent link">&para;</a></h3>
+<h2 id="13-basic-probability-concepts">13. Basic Probability Concepts<a class="headerlink" href="#13-basic-probability-concepts" title="Permanent link">&para;</a></h2>
+<p><strong>Probability</strong> quantifies the likelihood of an event occurring and is fundamental to uncertainty modeling in statistics, machine learning, and data science.</p>
+<ul>
+<li><strong>Probability Value Range</strong>:<br />
+  [
+  0 \leq P(A) \leq 1
+  ]</li>
+<li><strong>Interpretation</strong>:</li>
+<li>0 → Impossible event</li>
+<li>1 → Certain event</li>
+<li><strong>Classical Probability</strong>:
+  [
+  P(A) = \frac{\text{Number of favorable outcomes}}{\text{Total number of possible outcomes}}
+  ]</li>
+</ul>
+<hr />
+<h2 id="14-sample-space-and-events">14. Sample Space and Events<a class="headerlink" href="#14-sample-space-and-events" title="Permanent link">&para;</a></h2>
+<h3 id="141-sample-space-s">14.1 Sample Space (S)<a class="headerlink" href="#141-sample-space-s" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>Definition</strong>: The set of all possible outcomes of a random experiment.</li>
+<li><strong>Example</strong>:</li>
+<li>Tossing a coin:<br />
+    [
+    S = {H, T}
+    ]</li>
+<li>Rolling a die:<br />
+    [
+    S = {1, 2, 3, 4, 5, 6}
+    ]</li>
+</ul>
+<h3 id="142-events">14.2 Events<a class="headerlink" href="#142-events" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>Definition</strong>: Any subset of the sample space.</li>
+<li><strong>Types of Events</strong>:</li>
+<li><strong>Simple Event</strong>: Single outcome (e.g., rolling a 3).</li>
+<li><strong>Compound Event</strong>: Multiple outcomes (e.g., rolling an even number).</li>
+<li><strong>Impossible Event</strong>: Cannot occur (probability = 0).</li>
+<li><strong>Certain Event</strong>: Always occurs (probability = 1).</li>
+</ul>
+<hr />
+<h2 id="15-conditional-probability">15. Conditional Probability<a class="headerlink" href="#15-conditional-probability" title="Permanent link">&para;</a></h2>
+<ul>
+<li><strong>Definition</strong>: Probability of an event occurring given that another event has already occurred.</li>
+<li><strong>Notation</strong>:
+  [
+  P(A \mid B)
+  ]</li>
+<li><strong>Formula</strong>:
+  [
+  P(A \mid B) = \frac{P(A \cap B)}{P(B)}, \quad P(B) \neq 0
+  ]</li>
+<li><strong>Interpretation</strong>: Updates the probability of event A using information that B has occurred.</li>
+<li><strong>Use Case</strong>: Medical diagnosis, fraud detection, recommendation systems.</li>
+</ul>
+<hr />
+<h2 id="16-bayes-theorem">16. Bayes’ Theorem<a class="headerlink" href="#16-bayes-theorem" title="Permanent link">&para;</a></h2>
+<p>Bayes’ theorem describes how to <strong>update probabilities</strong> based on new evidence.</p>
+<h3 id="formula">Formula:<a class="headerlink" href="#formula" title="Permanent link">&para;</a></h3>
+<div class="arithmatex">\[
+P(A \mid B) = \frac{P(B \mid A) \cdot P(A)}{P(B)}
+\]</div>
+<h3 id="components_1">Components:<a class="headerlink" href="#components_1" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>P(A)</strong>: Prior probability</li>
+<li><strong>P(B | A)</strong>: Likelihood</li>
+<li><strong>P(B)</strong>: Evidence (normalizing constant)</li>
+<li><strong>P(A | B)</strong>: Posterior probability</li>
+</ul>
+<h3 id="importance-in-ml-data-science">Importance in ML &amp; Data Science:<a class="headerlink" href="#importance-in-ml-data-science" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Foundation of <strong>Bayesian inference</strong>.</li>
+<li>Used in <strong>Naive Bayes classifiers</strong>, spam filtering, and probabilistic modeling.</li>
+</ul>
+<hr />
+<h2 id="17-independence-and-mutual-exclusivity">17. Independence and Mutual Exclusivity<a class="headerlink" href="#17-independence-and-mutual-exclusivity" title="Permanent link">&para;</a></h2>
+<h3 id="171-independent-events">17.1 Independent Events<a class="headerlink" href="#171-independent-events" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Two events A and B are <strong>independent</strong> if occurrence of one does <strong>not affect</strong> the probability of the other.</li>
+<li><strong>Condition</strong>:
+  [
+  P(A \cap B) = P(A) \cdot P(B)
+  ]</li>
+<li><strong>Example</strong>: Tossing two separate coins.</li>
+</ul>
+<h3 id="172-mutually-exclusive-events">17.2 Mutually Exclusive Events<a class="headerlink" href="#172-mutually-exclusive-events" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Two events are <strong>mutually exclusive</strong> if they <strong>cannot occur simultaneously</strong>.</li>
+<li><strong>Condition</strong>:
+  [
+  P(A \cap B) = 0
+  ]</li>
+<li><strong>Example</strong>: Rolling a die and getting both 1 and 6 in a single roll.</li>
+</ul>
+<h3 id="173-key-difference">17.3 Key Difference<a class="headerlink" href="#173-key-difference" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th>Aspect</th>
+<th>Independent Events</th>
+<th>Mutually Exclusive Events</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Can occur together</td>
+<td>Yes</td>
+<td>No</td>
+</tr>
+<tr>
+<td>Intersection</td>
+<td>Non-zero</td>
+<td>Zero</td>
+</tr>
+<tr>
+<td>Conditional probability</td>
+<td>Unchanged</td>
+<td>Zero</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Important Note</strong>:<br />
+- Mutually exclusive events <strong>cannot be independent</strong> unless one has zero probability.</p>
+<hr />
+<hr />
+<hr />
+<hr />
+<h3 id="4-random-variables-and-probability-distributions">4. Random Variables and Probability Distributions<a class="headerlink" href="#4-random-variables-and-probability-distributions" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Discrete vs. continuous random variables</li>
+<li>Probability mass and density functions</li>
+<li>Expectation and variance</li>
+<li>Common discrete distributions (Bernoulli, Binomial, Poisson)</li>
+<li>Common continuous distributions (Uniform, Normal, Exponential)</li>
+</ul>
+<h3 id="5-normal-distribution-and-central-limit-theorem">5. Normal Distribution and Central Limit Theorem<a class="headerlink" href="#5-normal-distribution-and-central-limit-theorem" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Properties of the normal distribution</li>
+<li>Standard normal distribution and z-scores</li>
+<li>Central Limit Theorem</li>
+<li>Practical implications for ML</li>
+</ul>
+<h3 id="6-data-visualization-for-statistical-analysis">6. Data Visualization for Statistical Analysis<a class="headerlink" href="#6-data-visualization-for-statistical-analysis" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Histograms and density plots</li>
+<li>Box plots and violin plots</li>
+<li>Scatter plots and pair plots</li>
+<li>Correlation heatmaps</li>
+<li>Visualization pitfalls</li>
+</ul>
+<h3 id="7-correlation-and-covariance">7. Correlation and Covariance<a class="headerlink" href="#7-correlation-and-covariance" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Covariance and interpretation</li>
+<li>Pearson correlation coefficient</li>
+<li>Spearman rank correlation</li>
+<li>Multicollinearity</li>
+<li>Correlation vs. causation</li>
+</ul>
+<h3 id="8-statistical-inference">8. Statistical Inference<a class="headerlink" href="#8-statistical-inference" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Sampling methods</li>
+<li>Point estimation</li>
+<li>Confidence intervals</li>
+<li>Bias and variance trade-off</li>
+<li>Estimation errors</li>
+</ul>
+<h3 id="9-hypothesis-testing">9. Hypothesis Testing<a class="headerlink" href="#9-hypothesis-testing" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Null and alternative hypotheses</li>
+<li>Type I and Type II errors</li>
+<li>p-values and significance levels</li>
+<li>Common tests (z-test, t-test, chi-square test)</li>
+<li>A/B testing fundamentals</li>
+</ul>
+<h3 id="10-statistical-assumptions-in-machine-learning">10. Statistical Assumptions in Machine Learning<a class="headerlink" href="#10-statistical-assumptions-in-machine-learning" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Linearity</li>
+<li>Normality</li>
+<li>Homoscedasticity</li>
+<li>Independence of observations</li>
+<li>Identifying assumption violations</li>
+</ul>
+<h3 id="11-outliers-and-data-quality">11. Outliers and Data Quality<a class="headerlink" href="#11-outliers-and-data-quality" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Detecting outliers (IQR, z-score)</li>
+<li>Impact of outliers on ML models</li>
+<li>Handling missing data</li>
+<li>Data normalization and standardization</li>
+</ul>
+<h3 id="12-basic-statistical-concepts-in-ml-algorithms">12. Basic Statistical Concepts in ML Algorithms<a class="headerlink" href="#12-basic-statistical-concepts-in-ml-algorithms" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Loss functions and statistical meaning</li>
+<li>Maximum likelihood estimation</li>
+<li>Bias-variance decomposition</li>
+<li>Overfitting and underfitting from a statistical view</li>
+</ul>
+<h3 id="13-practical-statistics-with-python-optional">13. Practical Statistics with Python (Optional)<a class="headerlink" href="#13-practical-statistics-with-python-optional" title="Permanent link">&para;</a></h3>
+<ul>
+<li>NumPy and Pandas for statistics</li>
+<li>SciPy for probability and hypothesis testing</li>
+<li>Visualization with Matplotlib and Seaborn</li>
+<li>Real-world ML dataset examples</li>
+</ul>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+      <div class="md-progress" data-md-component="progress" role="progressbar"></div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["navigation.instant", "navigation.instant.progress", "navigation.sections", "navigation.expand", "navigation.top", "toc.follow", "search.highlight", "search.share", "search.suggest", "content.code.copy"], "search": "../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.79ae519e.min.js"></script>
+      
+        <script src="../../javascripts/mathjax.js"></script>
+      
+        <script src="https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js"></script>
+      
+        <script src="https://unpkg.com/katex@0/dist/katex.min.css"></script>
+      
+    
+  </body>
+</html>
